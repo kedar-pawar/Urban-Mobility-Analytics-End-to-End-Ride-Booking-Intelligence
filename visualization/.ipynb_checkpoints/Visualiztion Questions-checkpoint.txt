@@ -1,0 +1,94 @@
+OLA Data Analyst – Visualization Questions
+🔹 Booking Performance
+
+How many total bookings were made, and how many were successful vs cancelled vs incomplete?
+
+What is the percentage distribution of booking status (Success, Cancelled by Customer, Cancelled by Driver, Incomplete)?
+
+How does booking volume vary across different days of the month?
+
+What is the trend of successful bookings over time?
+
+🔹 Revenue & Value Analysis
+
+What is the total revenue generated from successful rides?
+
+How does total revenue compare between weekdays and weekends?
+
+Which payment method contributes the highest total revenue?
+
+What is the average booking value by vehicle type?
+
+What proportion of bookings fall under:
+
+Below ₹500
+
+₹500–₹1000
+
+Above ₹1000
+
+🔹 Vehicle & Ride Analysis
+
+What is the average ride distance for each vehicle type?
+
+Which vehicle type has the highest average ride distance?
+
+How does ride distance distribution vary across vehicle types?
+
+What is the relationship between ride distance and booking value?
+
+🔹 Customer Behavior Analysis
+
+Who are the top 5 customers by number of rides booked?
+
+How many customers have repeated cancellations?
+
+What percentage of customers cancel more than once?
+
+What is the distribution of customer ratings across vehicle types?
+
+🔹 Cancellation Analysis
+
+What are the most common reasons for customer cancellations?
+
+What are the most common reasons for driver cancellations?
+
+How do customer cancellations compare to driver cancellations?
+
+Which vehicle types face the highest cancellation rates?
+
+🔹 Driver Performance Analysis
+
+What is the average driver rating by vehicle type?
+
+What are the minimum and maximum driver ratings for Prime Sedan?
+
+How does driver rating distribution differ across vehicle types?
+
+Is there a relationship between driver ratings and ride distance?
+
+🔹 Payment Behavior
+
+What percentage of rides were paid using each payment method?
+
+How does payment method usage differ across vehicle types?
+
+Is there any difference in average booking value by payment method?
+
+🔹 Incomplete Ride Analysis
+
+What percentage of rides were incomplete?
+
+What are the most common reasons for incomplete rides?
+
+How do incomplete rides vary across vehicle types?
+
+🔹 Advanced / Dashboard-Level Questions
+
+What are the key KPIs for overall ride performance (Bookings, Revenue, Avg Rating, Avg Distance)?
+
+Which factors most strongly impact successful ride completion?
+
+How does customer satisfaction vary with vehicle type and payment method?
+
+What operational risks can be identified from cancellation and incomplete ride patterns?
