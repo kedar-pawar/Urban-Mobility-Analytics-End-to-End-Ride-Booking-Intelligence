@@ -7,7 +7,7 @@
 
 
 
-📊 OLA Data Analyst – Visualization Questions
+📊 KOLA Data Analyst – Visualization Questions
 🔹 Booking Performance
 
 How many total bookings were made, and how many were successful vs cancelled vs incomplete?

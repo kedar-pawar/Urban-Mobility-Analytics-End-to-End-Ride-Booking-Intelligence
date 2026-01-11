@@ -1,8 +1,8 @@
 
-USE ola_data;
+USE kola_data;
 SHOW TABLES;
 
--- OLA Data Analyst – SQL Questions & Queries
+--  Data Analyst – SQL Questions & Queries
 -- 0. Retrieve all columns from the bookings table
 DESC bookings;
 
