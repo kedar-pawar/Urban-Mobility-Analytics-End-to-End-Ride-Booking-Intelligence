@@ -166,9 +166,11 @@ applicable to real-world analytics roles.
 >
 > • Explore dashboards using slicers and filters
 >
-> Author
+
+**👤 Author**
 
 **Kedar** **Raju** **Pawar**
 
 **Data** **Analyst** **\|** **Power** **BI** **\|** **Data**
 **Analytics**
+
