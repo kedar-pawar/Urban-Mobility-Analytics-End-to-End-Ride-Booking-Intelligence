@@ -29,6 +29,21 @@ The dataset contains ride-booking records with the following attributes:
 
 ---
 
+## 🌐 Live Interactive Dashboard (Power BI)
+
+<iframe
+  title="Urban Mobility Analytics – Power BI Dashboard"
+  width="100%"
+  height="650"
+  src="PASTE_YOUR_PUBLISH_TO_WEB_LINK_HERE"
+  frameborder="0"
+  allowFullScreen="true">
+</iframe>
+
+> 💡 *Best viewed on desktop for full interactivity.*
+
+---
+
 ## 📊 Dashboard Preview
 
 ### 🔹 Overall Performance Overview
@@ -63,24 +78,11 @@ Customer cancellations are largely driven by plan changes and address issues, wh
 
 ---
 
-
 ### 🔹 Customer & Driver Experience
 ![Customer & Driver Experience](screenshots/ratings.png)
-=======
-> How to Use
->
-> • Download the .pbix file from this repository
->
-> • Open using Power BI Desktop
->
-> • Explore dashboards using slicers and filters
->
-
-
 
 **Insight:**  
 Average ratings remain consistently high across vehicle types (≈4.2+), indicating stable service quality with no major vehicle-specific dissatisfaction.
-
 
 ---
 
@@ -92,16 +94,16 @@ Average ratings remain consistently high across vehicle types (≈4.2+), indicat
 - Average Ride Distance  
 - Revenue by Payment Method  
 
-All KPIs are validated to ensure:
-> **Total Bookings = Successful Bookings + Cancelled Bookings**
+> **Validation Rule:**  
+> Total Bookings = Successful + Cancelled
 
 ---
 
 ## 🛠 Tools & Technologies
-- **Power BI Desktop**  
-- **DAX (Data Analysis Expressions)**  
-- **Data Modeling & Visualization**  
-- **Business Analytics & Storytelling**
+- Power BI Desktop  
+- DAX (Data Analysis Expressions)  
+- Data Modeling & Visualization  
+- Business Analytics & Storytelling  
 
 ---
 
@@ -115,8 +117,8 @@ This project demonstrates how analytics can:
 ---
 
 ## ▶️ How to Use
-1. Download the `.pbix` file from this repository  
-2. Open it using **Power BI Desktop**  
+1. Download the `.pbix` file  
+2. Open it in **Power BI Desktop**  
 3. Use slicers (date, vehicle type) to explore insights  
 
 ---
@@ -128,9 +130,4 @@ This project demonstrates how analytics can:
 ---
 
 ## 📄 License
-
-- This project is released under the **MIT License**.
-====
-
-
-
+This project is released under the **MIT License**.
