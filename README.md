@@ -32,7 +32,7 @@ The dataset contains ride-booking records with the following attributes:
 ## 📊 Dashboard Preview
 
 ### 🔹 Overall Performance Overview
-![Overall Performance](screenshots/overall.png)
+![Overall Performance](screenshots/Overall.png)
 
 **Key Insight:**  
 The platform processed **99.52K bookings** with a stable daily demand pattern. However, only **67.48%** of bookings were successfully completed, indicating that nearly one-third of demand is lost due to cancellations or incomplete rides.
@@ -130,6 +130,7 @@ This project demonstrates how analytics can:
 ## 📄 License
 
 - This project is released under the **MIT License**.
-=======
+====
+
 
 
