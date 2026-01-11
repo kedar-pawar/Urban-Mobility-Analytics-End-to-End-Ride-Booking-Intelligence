@@ -128,6 +128,8 @@ This project demonstrates how analytics can:
 ---
 
 ## 📄 License
-This project is released under the **MIT License**.
+
+- This project is released under the **MIT License**.
 =======
+
 
