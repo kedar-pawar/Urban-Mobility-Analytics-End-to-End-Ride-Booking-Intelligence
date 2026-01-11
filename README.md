@@ -63,12 +63,26 @@ Customer cancellations are largely driven by plan changes and address issues, wh
 
 ---
 
+<<<<<<< HEAD
 ### 🔹 Customer & Driver Experience
 ![Customer & Driver Experience](screenshots/ratings.png)
+=======
+> How to Use
+>
+> • Download the .pbix file from this repository
+>
+> • Open using Power BI Desktop
+>
+> • Explore dashboards using slicers and filters
+>
+
+**👤 Author**
+>>>>>>> 804cd42afc3a690ad502551299380a2bb4d4ce73
 
 **Insight:**  
 Average ratings remain consistently high across vehicle types (≈4.2+), indicating stable service quality with no major vehicle-specific dissatisfaction.
 
+<<<<<<< HEAD
 ---
 
 ## 🧮 Key KPIs
@@ -116,3 +130,8 @@ This project demonstrates how analytics can:
 
 ## 📄 License
 This project is released under the **MIT License**.
+=======
+**Data** **Analyst** **\|** **Power** **BI** **\|** **Data**
+**Analytics**
+
+>>>>>>> 804cd42afc3a690ad502551299380a2bb4d4ce73
