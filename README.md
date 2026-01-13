@@ -29,13 +29,6 @@ The dataset contains ride-booking records with the following attributes:
 
 ---
 
-## 🌐 Live Interactive Dashboard (Power BI)
-
-<iframe title="Kola Drive – Urban Mobility Analytics" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=5f8c3f83-ae03-4609-a35c-471343a16e90&autoAuth=true&ctid=29483a98-f908-4076-94c2-a30a84723e0d" frameborder="0" allowFullScreen="true"></iframe>
-
-> 💡 *Best viewed on desktop for full interactivity.*
-
----
 
 ## 📊 Dashboard Preview
 
@@ -124,4 +117,5 @@ This project demonstrates how analytics can:
 
 ## 📄 License
 This project is released under the **MIT License**.
+
 
