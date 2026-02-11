@@ -1,122 +1,56 @@
-# 🚕 Urban Mobility Analytics – End-to-End Ride Booking Intelligence 
+# 🚕 Urban Mobility Analytics — End-to-End Ride Booking Intelligence
 
-## 📌 Project Overview
-This project presents an **end-to-end urban mobility analytics solution** built using **Power BI**, focused on analyzing ride-booking data to uncover demand patterns, operational efficiency, revenue drivers, cancellations, and customer & driver experience.
+An end-to-end **Data Analytics case study** that simulates a real-world ride-hailing platform (like Ola/Uber) and transforms raw booking data into business insights using **Python, MySQL, SQL, and Power BI**.
 
-The dashboard simulates a real-world ride-hailing platform (similar to Ola/Uber) and demonstrates how data-driven insights support operational and business decisions.
-
----
-
-## 🎯 Objectives
-- Analyze overall booking performance and platform activity  
-- Identify demand trends and revenue patterns  
-- Understand cancellation behavior and operational loss  
-- Evaluate fleet performance across vehicle types  
-- Assess customer and driver experience using ratings  
+This project demonstrates the full analytics workflow — from **synthetic data generation → database modeling → SQL analysis → KPI design → interactive dashboarding → business insight extraction**.
 
 ---
 
-## 🗂 Dataset Overview
-The dataset contains ride-booking records with the following attributes:
+# 📌 Problem Statement
+
+Ride-booking platforms generate large volumes of operational data. Without structured analytics, it is difficult to clearly identify:
+
+- Revenue leakage  
+- Cancellation drivers  
+- Demand patterns  
+- Fleet utilization gaps  
+- Service quality trends  
+
+This project builds a complete analytics pipeline to answer those questions using realistic simulated data.
+
+---
+
+# 🎯 Objectives
+
+- 📈 Measure overall booking & revenue performance  
+- 🚗 Compare fleet utilization across vehicle types  
+- ❌ Analyze cancellation & incomplete ride patterns  
+- 💳 Study payment method contribution  
+- ⭐ Evaluate customer & driver ratings  
+- 🧠 Convert operational data into decision-ready KPIs  
+
+---
+
+# 🗂 Dataset Overview
+
+Synthetic ride-booking dataset generated using Python to simulate realistic platform behavior.
+
+**Scale:** ~100,000 bookings  
+**Domain:** Urban Mobility Analytics  
+
+## Attributes Included
+
 - Booking ID, Date, Time  
 - Booking Status (Successful, Cancelled, Incomplete)  
 - Vehicle Type  
+- Pickup & Drop Locations  
 - Ride Distance  
 - Booking Value  
 - Payment Method  
-- Cancellation Reasons (Customer & Driver)  
-- Customer Ratings & Driver Ratings  
+- Customer & Driver Ratings  
+- Customer Cancellation Reasons  
+- Driver Cancellation Reasons  
 
 ---
 
-
-## 📊 Dashboard Preview
-
-### 🔹 Overall Performance Overview
-![Overall Performance](screenshots/Overall.png)
-
-**Key Insight:**  
-The platform processed **99.52K bookings** with a stable daily demand pattern. However, only **67.48%** of bookings were successfully completed, indicating that nearly one-third of demand is lost due to cancellations or incomplete rides.
-
----
-
-### 🔹 Fleet & Vehicle Performance
-![Fleet & Vehicle Performance](screenshots/vehicle_type.png)
-
-**Insight:**  
-Auto and Mini vehicles contribute the highest booking volumes, while Prime categories show consistent ride distances, indicating balanced fleet utilization.
-
----
-
-### 🔹 Revenue & Demand Insights
-![Revenue & Demand Insights](screenshots/revenue.png)
-
-**Insight:**  
-Digital payment methods—especially UPI—dominate booking value, highlighting strong adoption of cashless transactions.
-
----
-
-### 🔹 Cancellations & Loss Analysis
-![Cancellations & Loss Analysis](screenshots/cancellation.png)
-
-**Insight:**  
-Customer cancellations are largely driven by plan changes and address issues, while driver cancellations are evenly spread across operational reasons—pointing to coordination and routing inefficiencies.
-
----
-
-### 🔹 Customer & Driver Experience
-![Customer & Driver Experience](screenshots/ratings.png)
-
-**Insight:**  
-Average ratings remain consistently high across vehicle types (≈4.2+), indicating stable service quality with no major vehicle-specific dissatisfaction.
-
----
-
-## 🧮 Key KPIs
-- Total Bookings  
-- Successful Bookings  
-- Cancelled Bookings  
-- Cancellation Rate (%)  
-- Average Ride Distance  
-- Revenue by Payment Method  
-
-> **Validation Rule:**  
-> Total Bookings = Successful + Cancelled
-
----
-
-## 🛠 Tools & Technologies
-- Power BI Desktop  
-- DAX (Data Analysis Expressions)  
-- Data Modeling & Visualization  
-- Business Analytics & Storytelling  
-
----
-
-## 📈 Business Value
-This project demonstrates how analytics can:
-- Reduce revenue leakage from cancellations  
-- Improve fleet utilization  
-- Enhance customer and driver satisfaction  
-- Support data-driven operational decisions  
-
----
-
-## ▶️ How to Use
-1. Download the `.pbix` file  
-2. Open it in **Power BI Desktop**  
-3. Use slicers (date, vehicle type) to explore insights  
-
----
-
-## 👤 Author
-**Kedar Raju Pawar**  
-**Data Analyst | Power BI | Data Analytics**
-
----
-
-## 📄 License
-This project is released under the **MIT License**.
-
-
-
+# ⚙️ End-to-End Analytics Pipeline
